@@ -7,7 +7,7 @@ Conway's Game of Life, often referred to simply as Life, is a Turing complete sy
 The universe typically consists of an infinite two-dimensional grid of cells, each of which is in one of two possible states: alive or dead.
 
 
-# Rules of Life
+### Rules of Life
 
 **Birth Rule:**
 Any dead cell with exactly three live neighbours becomes alive.
