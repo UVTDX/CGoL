@@ -1,0 +1,4 @@
+# Ignore Cabal build artifacts
+dist-newstyle/
+*.o
+*.hi
