@@ -1,3 +1,4 @@
 # Ignore Cabal build artifacts
 dist-newstyle/
 CGoL.cabal
+README.md
