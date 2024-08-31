@@ -15,7 +15,7 @@ main = do
   spawn universe
 
 
-
+-- randomly set alive points
 -- check if a point is alive
 -- return set of living neighbors
 -- kill function
