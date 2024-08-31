@@ -1,8 +1,3 @@
---TO DO
---set random alive cells
---create neighbor functions
---create birth/death function
-
 import Data.Array
 
 universe :: Array (Int, Int) Int
@@ -16,3 +11,11 @@ spawn arr = mapM_ putStrLn [show [arr ! (row, col) | col <- [1..12]] | row <- [1
 main :: IO ()
 main = do
 	spawn universe
+
+
+
+-- check if a point is alive
+-- return set of living neighbors
+-- kill function
+-- spawn the next generation
+
