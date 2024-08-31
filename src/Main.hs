@@ -1,4 +1,5 @@
 import Data.Array
+import System.Random (randomRIO)
 
 -- imagining our utopia
 universe :: Array (Int, Int) Int
@@ -13,7 +14,6 @@ main :: IO ()
 main = do
   putStr "\ESC[2J" -- clearing the canvas
   spawn universe
-
 
 -- randomly set alive points
 -- check if a point is alive
