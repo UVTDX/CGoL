@@ -9,7 +9,6 @@ universe = array ((1,1), (30,30)) [((row, col), 0) | row <- [1..30], col <- [1..
 spawn :: Array (Int, Int) Int -> IO ()
 spawn arr = mapM_ putStrLn [show [arr ! (row, col) | col <- [1..30]] | row <- [1..30]]
 
--- idek fr
 main :: IO ()
 main = do
   putStr "\ESC[2J" -- clearing the canvas
