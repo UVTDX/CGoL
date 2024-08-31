@@ -12,7 +12,7 @@ spawn arr = mapM_ putStrLn [show [arr ! (row, col) | col <- [1..12]] | row <- [1
 -- idek fr
 main :: IO ()
 main = do
-	spawn universe
+  spawn universe
 
 
 
